@@ -153,9 +153,16 @@
 #         continue
 #     print(letter)
 
-tiles = {
-    'small_black_granite': 19.5,
-    'small_grey_marble': 25.95
-}
+# tiles = {
+#     'small_black_granite': 19.5,
+#     'small_grey_marble': 25.95
+# }
+#
+# print(tiles['small_black_granite'])
 
-print(tiles['small_black_granite'])
+
+
+students = ['Edie','Timothy','Sarah','Hero','Jerry']
+print(students)
+del(students[3])
+print(students)
