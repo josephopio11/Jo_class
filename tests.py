@@ -114,9 +114,6 @@
 # print('joy' in family)
 
 
-
-
-
 # letters = [['a','b','c'],['d','e','f']]
 #
 # print(letters)
@@ -161,8 +158,16 @@
 # print(tiles['small_black_granite'])
 
 
+# students = ['Edie','Timothy','Sarah','Hero','Jerry']
+# print(students)
+# del(students[3])
+# print(students)
 
-students = ['Edie','Timothy','Sarah','Hero','Jerry']
-print(students)
-del(students[3])
-print(students)
+
+# print(range(600))
+# first = range(0,600,2)
+print('Multiples of 4')
+nums = []
+for i in range(41,0, -1):
+    nums.append(i)
+print(nums)
